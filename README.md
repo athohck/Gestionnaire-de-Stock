@@ -11,6 +11,8 @@ Ce programme permet de gérer un inventaire de produits avec leur quantité en s
 - ➕ **Enregistrer un produit** : Ajouter un nouveau produit avec sa quantité en stock
 - 📊 **Consulter le stock** : Afficher tous les produits enregistrés
 - 💾 **Sauvegarde automatique** : Les données sont sauvegardées dans un fichier texte
+- ❌ Supprimer un produit
+- ✏️ Modifier la quantité d'un produit
 - ⚠️ **Gestion d'erreurs** : Validation des entrées utilisateur
 
 ## 🛠️ Technologies utilisées
@@ -45,7 +47,9 @@ gestion_stock.exe
 2. Choisissez une option dans le menu :
    - **1** : Enregistrer un nouveau produit
    - **2** : Consulter le stock actuel
-   - **3** : Quitter le programme
+   - **3** : Suppression d'un produit
+   - **4** : Modificatio du stock d'un produit
+   - **5** : Quitter
 3. Les données sont sauvegardées dans `stock.txt`
 
 ## 🎥 Exemple d'utilisation
@@ -65,14 +69,6 @@ gestion_stock.exe
  Ton produit : Burger stock : 50 Sont bien enregistré ✅
 ```
 
-## 🚀 Améliorations futures
-
-- [ ] Supprimer un produit
-- [ ] Modifier la quantité en stock
-- [ ] Rechercher un produit spécifique
-- [ ] Alertes pour stock faible
-- [ ] 
-## 👨‍💻 Auteur
 
 **athohck** - Projet d'apprentissage C++ (Décembre 2025)
 
